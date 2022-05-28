@@ -23,5 +23,5 @@ app.get('/priorities',(req,res)=>{
 
 // Starting server
 app.listen(process.env.PORT|| 5000,()=>{
-    console.log('server is live on:'+PORT)
+    console.log('server is live on:')
 });
